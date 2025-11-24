@@ -49,8 +49,11 @@ El objetivo es que el script pueda ejecutar las funciones que programaste en el 
 
 Ejemplo
 
-`python -m logs.py run_selected_exercise --jsonpath /path/to/logs.json --exercisenumber 1`
+`python -m logs.py --jsonpath logs.json --exercisenumber 1`
 
+La salida debe ser:
+
+{'failed_login': 475, 'api_request': 519, 'view_page': 531, 'delete_item': 514, 'update_profile': 477, 'upload_file': 520, 'change_password': 486, 'login': 471, 'logout': 534, 'download_file': 473}
 ---
 
 ## 6. Ejecutar los tests
